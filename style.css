@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(./assets/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 #cima {
   display: flex;
 }
@@ -67,6 +74,8 @@ img {
   display: flex;
   gap: 32px;
   margin-top: 16px;
+  align-items: center;
+  justify-content: center;  
  }
 #caixa ul li a{
   border: 1px solid red;
