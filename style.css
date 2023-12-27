@@ -65,20 +65,19 @@ img {
   border: 1px solid red;
   list-style: none;
   display: flex;
-  gap: 16px;
-  align-items: center;
-  justify-content: center;
-}
-#caixa li {
+  gap: 32px;
+  margin-top: 16px;
+ }
+#caixa ul li a{
   border: 1px solid red;
   border-radius: 10px;
-  width: 200px;
-  height: 20px;
+  width: 150px;
+  height:40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#caixa li:hover {
+#caixa ul li a:hover {
   background: whitesmoke;
   border-color: gray;
 }
