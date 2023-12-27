@@ -12,18 +12,19 @@ img {
   width: 112px;
   height: 80px;
 }
-ul {
+#cima ul {
   list-style: none;
   display: flex;
   gap: 32px;
   padding: 16px 20px;
+  margin-top: 16px;
 }
-li {
+#cima ul li a{
   border: 1px solid red;
   padding: 16px 40px;
   border-radius: 10px;
 }
-ul li a:hover {
+#cima ul li a:hover {
   background: whitesmoke;
   border-color: gray;
 }
